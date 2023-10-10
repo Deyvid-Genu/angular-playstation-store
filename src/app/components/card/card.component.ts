@@ -7,7 +7,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
   @Input()
-  image: string = '../../../assets/spider.jpg';
+  picturesrc: string = '';
+
+  @Input()
+  gameLabel: string = '';
+
+  @Input()
+  title: string = '';
+
+  @Input()
+  console: string = '';
+
+  @Input()
+  price: string = '';
 
   constructor() {}
 

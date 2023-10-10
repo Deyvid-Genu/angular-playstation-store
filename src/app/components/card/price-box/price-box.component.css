@@ -1,0 +1,17 @@
+.container__box-price {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.container__box-price > .title__box-price > h3 {
+  font-weight: 500;
+}
+
+.container__box-price > .details__box-price {
+  display: flex;
+  justify-content: space-between;
+}

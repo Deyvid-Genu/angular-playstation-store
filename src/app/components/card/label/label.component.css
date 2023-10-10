@@ -1,0 +1,15 @@
+.container__label {
+  position: absolute;
+  bottom: 90px;
+  right: 0;
+}
+
+.container__label > .label {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 5px 15px;
+  border-radius: 5px 0 0 5px;
+}
+
+.container__label > .label > p {
+  color: #eeeeee;
+}

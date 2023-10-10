@@ -10,7 +10,9 @@
 .container__content {
   width: 90%;
   margin: 0 auto;
-  padding: 50px 0 0 0;
+  padding: 50px 0 50px 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
 }

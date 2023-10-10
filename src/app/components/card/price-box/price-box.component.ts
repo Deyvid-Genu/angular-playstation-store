@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-price-box',
   templateUrl: './price-box.component.html',
-  styleUrls: ['./price-box.component.css']
+  styleUrls: ['./price-box.component.css'],
 })
 export class PriceBoxComponent implements OnInit {
+  @Input()
+  title: string = '';
 
-  constructor() { }
+  @Input()
+  console: string = '';
 
-  ngOnInit(): void {
-  }
+  @Input()
+  price: string = '';
 
+  constructor() {}
+
+  ngOnInit(): void {}
 }
