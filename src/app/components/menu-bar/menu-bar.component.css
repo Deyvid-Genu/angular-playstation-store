@@ -1,0 +1,107 @@
+.container__menu-bar > .sony-bar {
+  padding: 0 5px;
+  display: flex;
+  justify-content: end;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(189, 189, 199, 1) 35%,
+    rgba(142, 142, 152, 1) 100%
+  );
+
+  box-shadow: 0 2px 4px #000;
+}
+
+.container__menu-bar > .sony-bar > img {
+  width: 75px;
+  height: 36px;
+}
+.upper-menu {
+  max-width: 90%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px 5px 5px;
+}
+
+.upper-menu > .upper-menu-navigation {
+  display: flex;
+}
+
+.upper-navigation {
+  font-size: 11.375px;
+  color: #929292;
+  font-weight: 500;
+  padding: 0 20px 0 5px;
+}
+.upper-navigation:hover {
+  color: #111111;
+}
+
+.upper-navigation > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.upper-menu > .login {
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #0070cc;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.upper-menu > .login:hover {
+  background-color: #1185e4;
+}
+
+.container__menu-bar > .menu {
+  max-width: 90%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.container__menu-bar > .menu > img {
+  width: 153.63px;
+  margin-left: -17px;
+}
+
+.container__menu-bar > .menu > .menu-navigation {
+  max-width: 90%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.container__menu-bar > .menu > .menu-navigation > .navigation {
+  font-size: 14px;
+  color: #111111;
+  font-weight: 600;
+  padding: 5px 20px 5px 15px;
+}
+
+.container__menu-bar > .menu > .menu-navigation > .navigation > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container__menu-bar > .menu > .menu-navigation > .navigation:hover {
+  background-color: #dddddd;
+  border: none;
+  border-radius: 15px;
+}
+
+.container__menu-bar > .menu > .menu-navigation > .active {
+  background-color: #dddddd;
+  border: none;
+  border-radius: 15px;
+}

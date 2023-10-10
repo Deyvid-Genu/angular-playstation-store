@@ -1,0 +1,15 @@
+.container__card {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.container__card > a > img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px #000000;
+  transition: transform 0.8s;
+}
+
+.container__card > a > img:hover {
+  transform: scale(1.1);
+}
